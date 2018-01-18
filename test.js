@@ -39,6 +39,7 @@ Object.keys(tests).forEach((name) => {
   console.log(`✓ ${name}`)
 })
 
-function createArray (length = 1000000) {
-  return Array(1000000).fill(0).map((_, i) => ({ id: `ID${i}` }))
+function createArray (length) {
+  length = length || 1000000
+  return Array(length).fill(0).map((_, i) => ({ id: `ID${i}` }))
 }
