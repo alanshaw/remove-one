@@ -24,3 +24,11 @@ const result = removeOne(array, (n) => n === 1)
 console.log(array) // [0, 1, 2, 3]
 console.log(result) // [0, 2, 3]
 ```
+
+## Contribute
+
+Feel free to dive in! [Open an issue](https://github.com/alanshaw/remove-one/issues/new) or submit PRs.
+
+## License
+
+[MIT](LICENSE) © Alan Shaw
